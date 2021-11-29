@@ -41,7 +41,7 @@ if vim.g.material_style == 'darker' then
     material.bg_alt =		'#1A1A1A'
     material.fg =			'#B0BEC5'
     material.text =			'#727272'
-    material.comments =		'#F78C6C'
+    material.comments =		'#FFA500'
     material.selection = 	'#404040'
     material.contrast =		'#1A1A1A'
     material.active =		'#323232'
@@ -54,7 +54,7 @@ if vim.g.material_style == 'darker' then
     if config.text_contrast.darker == true then
         -- Lighter theme style with high contrast
 
-        material.comments =		'#F78C6C' -- '#757575'
+        material.comments =		'#757575'
         material.line_numbers =	'#5C5C5C'
 
     end
